@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed — CSE 135</title>
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; }
+    .card { border: 1px solid #eee; border-radius: 12px; padding: 16px; }
+    button { padding: 10px 12px; border-radius: 10px; border: 1px solid #ddd; background: #fff; cursor: pointer; }
+    button:hover { background: #f6f6f6; }
+  </style>
+</head>
+<body>
+  <a href="/">← Back to Team Home</a>
+  <h1>Hey it's me, Ahmed Issa</h1>
+
+  <div class="card">
+    <p>
+      This page is for CSE 135 HW1.
+    </p>
+
+    <h2>Fun button</h2>
+    <p id="msg">Click for a random message.</p>
+    <button id="btn" type="button">Generate</button>
+  </div>
+
+  <script>
+    const msgs = [
+      "Debugging is just like being Sherlock Holmes.",
+      "Matt murdock is the best Marvel character.",
+      "What is something you want to leave for the next generation of CSE 135 students?"
+    ];
+    document.getElementById("btn").addEventListener("click", () => {
+      const i = Math.floor(Math.random() * msgs.length);
+      document.getElementById("msg").textContent = msgs[i];
+    });
+  </script>
+</body>
+</html>
