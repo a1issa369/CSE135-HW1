@@ -13,14 +13,21 @@ On every push to the Main branch:
 Authentication is handled using an SSH deploy key stored in GitHub Secrets.
 No private keys are committed to the repository.
 
-See `github-deploy.gif` for a demonstration.
+## Server Header Removal Summary
 
-## Setting Custom Server Header
-I was able to accomplish this in Apache by adding the following lines to /etc/apache2/sites-enabled/default-ssl.conf under the virtual host on port 80 and etc/apache2/sites-enabled/000-default.conf on port 8080
-```
-Header unset Server
-Header always set Server "CSE 135 Server"
-```
+To prevent disclosure of the underlying web server software, the default Server response header was removed and replaced.
 
-You can see proof of the header update in header-verify.jpg
+Apache was placed behind an Nginx reverse proxy. Apache listens on port 8080, while Nginx listens on port 80, then it forwards any incoming requests directly to Apache. Nginx was configured to remove any upstream Server headers and place our custom header
+
+
+## HTTP Compression Summary
+
+Text-based resources are compressed using gzip.
+
+After enabling compression, DevTools shows the following changes when loading HTML pages:
+- The Content-Encoding response header is set to gzip
+- The size of HTML files is way smaller than the original size
+- Pages render correctly in the browser
+
+This confirms that compression is successfully applied to HTML content.
 
