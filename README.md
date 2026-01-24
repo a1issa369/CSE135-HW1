@@ -1,5 +1,9 @@
 # CSE135-HW1
 
+## Team members:
+- Rosario Ortiz
+- Ahmed Issa
+
 
 ## GitHub Auto-Deploy Setup
 
