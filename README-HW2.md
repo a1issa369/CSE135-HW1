@@ -3,8 +3,12 @@
 Ahmed Issa 
 Rosario Ortiz 
 ## Login Info 
-IP: 
-your IP address of server, ssh key, grader log in information to the site and server
+IP: 165.232.151.151
+Username: grader
+Password: 
+
+The SSH private key is available as a .pem file in the GradeScope submission. 
+
 
 The homework 2 page is currently on our homepage at https://rosarioortiz.com/
 
@@ -25,4 +29,5 @@ As a broke college student, I also need to balance price considerations with fea
 
 ## Additional Notes 
 We were unable to view data on the Google Tag Manager Dashboard prior to the deadline, as it takes at least 24 hours to populate. The screenshot we submitted shows analytics data displayed on the Realtime Overview page. 
+
 
