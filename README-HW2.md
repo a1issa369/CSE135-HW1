@@ -4,8 +4,9 @@ Ahmed Issa
 Rosario Ortiz 
 ## Login Info 
 IP: 165.232.151.151
+
 Username: grader
-Password: 
+Password: You're crazy if you think I'm adding that to our public repo. 
 
 The SSH private key is available as a .pem file in the GradeScope submission. 
 
@@ -29,5 +30,6 @@ As a broke college student, I also need to balance price considerations with fea
 
 ## Additional Notes 
 We were unable to view data on the Google Tag Manager Dashboard prior to the deadline, as it takes at least 24 hours to populate. The screenshot we submitted shows analytics data displayed on the Realtime Overview page. 
+
 
 
