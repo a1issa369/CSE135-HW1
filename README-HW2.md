@@ -1,4 +1,12 @@
+# HW 2 README 
+## Our Team 
+Ahmed Issa 
+Rosario Ortiz 
+## Login Info 
+IP: 
+your IP address of server, ssh key, grader log in information to the site and server
 
+The homework 2 page is currently on our homepage at https://rosarioortiz.com/
 
 ## Free Choice Analytics Platform 
 I considered Matomo, Plausible, and Plausible Community Edition. These initial candidates were drawn from suggestions by Claude Sonnet and thus were selected with the popularity bias inherent to LLMs. I was initially drawn to Matomo as a learning opportunity, since it is self-hosted and requires more set up than Plausible, Google Tag Manager, or Log Rocket. 
@@ -14,3 +22,7 @@ Plausible being open-source is another double-edged sword. It’s awesome to hav
 I appreciated the dashboard link-sharing feature, which includes a choice between password protection and making my analytics visible on the open internet. 
 
 As a broke college student, I also need to balance price considerations with features and learning opportunities. I hope to transition our server to Plausible Community Edition when our free trial expires so that I can learn to self-host it.
+
+## Additional Notes 
+We were unable to view data on the Google Tag Manager Dashboard prior to the deadline, as it takes at least 24 hours to populate. The screenshot we submitted shows analytics data displayed on the Realtime Overview page. 
+
