@@ -1,4 +1,3 @@
-cat > /var/www/html/hw2/php/echo-php.php <<'PHP'
 <?php
 date_default_timezone_set("UTC");
 
@@ -63,4 +62,3 @@ $data = parse_data($method, $contentType, $raw);
 <pre><?= htmlspecialchars($raw) ?></pre>
 </body>
 </html>
-PHP

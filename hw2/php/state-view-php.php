@@ -1,4 +1,3 @@
-cat > /var/www/html/hw2/php/state-view-php.php <<'PHP'
 <?php
 $raw = $_COOKIE["hw2_state_php"] ?? "";
 $data = $raw ? json_decode($raw, true) : null;
@@ -17,4 +16,3 @@ $data = $raw ? json_decode($raw, true) : null;
   <a href="/hw2/php/state-clear-php.php">Clear</a>
 </p>
 </body></html>
-PHP

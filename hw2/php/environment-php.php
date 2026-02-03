@@ -1,4 +1,3 @@
-cat > /var/www/html/hw2/php/environment-php.php <<'PHP'
 <?php
 $server = $_SERVER;
 ksort($server);
@@ -30,4 +29,3 @@ ksort($server);
   </table>
 </body>
 </html>
-PHP

@@ -1,4 +1,3 @@
-cat > /var/www/html/hw2/php/hello-html-php.php <<'PHP'
 <?php
 date_default_timezone_set("UTC");
 $team = ["Ahmed", "Rosario"];
@@ -17,4 +16,3 @@ $ip = $_SERVER["REMOTE_ADDR"] ?? "unknown";
   </ul>
 </body>
 </html>
-PHP

@@ -1,4 +1,3 @@
-cat > /var/www/html/hw2/php/state-save-php.php <<'PHP'
 <?php
 if (($_SERVER["REQUEST_METHOD"] ?? "") === "POST") {
   $name = trim($_POST["name"] ?? "");
@@ -29,4 +28,3 @@ if (($_SERVER["REQUEST_METHOD"] ?? "") === "POST") {
   <a href="/hw2/php/state-clear-php.php">Clear</a>
 </p>
 </body></html>
-PHP

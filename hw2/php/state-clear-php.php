@@ -1,4 +1,3 @@
-cat > /var/www/html/hw2/php/state-clear-php.php <<'PHP'
 <?php
 setcookie("hw2_state_php", "", [
   "expires" => time() - 3600,
@@ -8,4 +7,3 @@ setcookie("hw2_state_php", "", [
 ]);
 header("Location: /hw2/php/state-save-php.php");
 exit;
-PHP
